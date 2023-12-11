@@ -14,14 +14,14 @@ export default function Home () {
         <div>
           <div className="home-container">
             <h1>Löydä intohimosi</h1>
-            <p>
+            <h4>
               HobbyMatch tarjoaa ainutlaatuisen alustan, jonka avulla voit löytää ja liittyä
               erilaisiin harrastusryhmiin ja joukkueisiin omalla alueellasi. Sivustolta löydät
               laajan valikoiman harrastusvaihtoehtoja aina kuntourheilusta taideharrastuksiin.
               Etsitpä sitten jalkapallojoukkuetta, tanssiryhmää tai vaikka lautapelikerhoa,
               HobbyMatch auttaa sinua löytämään samanhenkiset ihmiset ja harrastusporukat.
-            </p>
-          <h2>All Groups</h2>
+            </h4>
+          <h2>Ryhmät</h2>
 
           </div>
           <div className="group-card-container">

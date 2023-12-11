@@ -5,6 +5,7 @@ import supabase from './config/supabaseClient'
 import { AppBar, Box, Toolbar, Typography } from '@mui/material';
 import {Link, Outlet} from 'react-router-dom'
 import './index.css'
+import logo from './images/logo.png'
 
 function App() {
 
@@ -15,6 +16,11 @@ function App() {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
+            <img
+              src={logo}
+              alt="Logo"
+              style={{ width: '100px', marginRight: '20px' }}
+            />
             <nav style={{ display: 'flex', gap: '20px' }}>
               <Link to={"/"} style={{ textDecoration: 'none', color: 'white' }}>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>Home</Typography>

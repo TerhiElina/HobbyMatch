@@ -23,10 +23,10 @@ const GroupCard = ({ association }) => {
         let imageSource;
         switch (association.associationid) {
           case '1':
-            imageSource = present;
+            imageSource = sailing;
             break;
           case '2':
-            imageSource = sailing;
+            imageSource = present;
             break;
           case '3':
             imageSource = saving;
