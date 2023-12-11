@@ -1,0 +1,16 @@
+.custom-tooltip {
+  position: absolute;
+  display: none;
+  background-color: #fff; /* Set the background color of the tooltip box */
+  border: 1px solid #ccc; /* Add a border to the tooltip box */
+  padding: 8px; /* Add padding to the tooltip box */
+  border-radius: 4px; /* Optionally, add border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optionally, add a box shadow */
+  z-index: 9999; /* Set a high z-index to ensure the tooltip appears above other elements */
+}
+
+.tooltip-content-box {
+  /* Optionally, add styles for the text inside the tooltip box */
+  color: #333;
+  font-size: 14px;
+}
